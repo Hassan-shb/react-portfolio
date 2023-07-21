@@ -1,0 +1,138 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+ 
+
+}
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+
+.about__me img{
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 600px;
+}
+
+.about__me img{
+        transform: translateX(-5rem);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 0.5rem;
+    text-align: center;
+    transition: var(--transition);
+
+}
+.about__card:hover{
+    background: var(--color-primary-variant);
+    cursor: default;
+    font-size: 1rem;
+}
+
+.textinput{
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 1024px ){
+    .container{
+        width: var(--container-width-md);
+    }
+    .about__cards{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__me{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    }
+    .about__me img{
+        border-radius: 2rem;
+        overflow: hidden;
+        width: 800px;
+        transform: translateX(0rem);
+    }
+    .about__card{
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 0.5rem 0.1rem;
+        text-align: center;
+        transition: var(--transition);
+    
+    }
+    
+}
+
+@media screen and (max-width: 600px ){
+    .container{
+        width: var(--container-width-sm);
+    }
+    .about__cards{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0rem;
+        
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__me{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    }
+    .about__me img{
+        border-radius: 2rem;
+        overflow: hidden;
+        width: 800px;
+        transform: translateX(0rem);
+    }
+    .about__card{
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 0.2rem 0.1rem;
+        text-align: center;
+        transition: var(--transition);
+    
+    }
+}
