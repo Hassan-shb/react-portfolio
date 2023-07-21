@@ -19,6 +19,7 @@ header{
 }
 
 
+
 .header_socials{
     display: flex;
     flex-direction: column;
@@ -58,6 +59,7 @@ header{
    header{
     height: 100vh;
    }
+   
 }
 
 @media screen and (max-width: 600px ){
@@ -67,4 +69,7 @@ header{
     .scroll__down, .header_socials{
         display: none;
     }
+
+
+    
 }

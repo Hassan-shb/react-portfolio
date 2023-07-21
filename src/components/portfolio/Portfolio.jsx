@@ -2,6 +2,9 @@ import React from 'react';
 import './portfolio.css';
 import flutter from '../../assets/flutter.jpeg';
 import react from '../../assets/react.png';
+import laravel from '../../assets/laravel.png';
+import javaScriptLogo from '../../assets/JavaScript-logo.png';
+
 
 
 const Portfolio = () => {
@@ -11,44 +14,41 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item_image'>
-            <img src={flutter} alt='flutter image'/>
+            <img src={react} alt='React Image'/>
           </div>
-          <h3>This is a portfolio item title.</h3>
-          <a href='https://github.com' className='btn btn-primary' target='__blank'>Github</a>
-         
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item_image'>
-            <img src={react} alt='flutter image' />
-          </div>
-          <h3>This is a portfolio item title.</h3>
-          <a href='https://github.com' className='btn btn-primary' target='__blank'>Github</a>
+          <h2 className='center'>React Portfolio Project</h2>
+          <h4 className='class2'> This is a personal portfolio project meticulously developed using React. Get to know about me and my works on this website. The Github and my personal social links are also added on the webiste.</h4>
+          <a href='https://github.com/Hassan-shb/react-portfolio' className='btn btn-primary' target='__blank'>Github</a>
          
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item_image'>
             <img src={flutter} alt='flutter image' />
           </div>
-          <h3>This is a portfolio item title.</h3>
-          <a href='https://github.com' className='btn btn-primary' target='__blank'>Github</a>
+          <h2 className='center'>Second Year Project</h2>
+          <h4 className='class2'>An online shop project crafted for Advanced Programming Subject. This project is written in <b> Flutter and Dart </b> programming languages. </h4>
+          <a href='https://github.com/Hassan-shb/Second_year_project.git' className='btn btn-primary' target='__blank'>Github</a>
          
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item_image'>
-            <img src={flutter} alt='flutter image' />
+            <img src={javaScriptLogo} alt='JavaScript Image' />
           </div>
-          <h3>This is a portfolio item title.</h3>
-          <a href='https://github.com' className='btn btn-primary' target='__blank'>Github</a>
+          <h2 className='center'>Pig Game</h2>
+          <h4 className='class2'>This is the JavaScript Pig Game project created to show off the javaScript Skill. This project is a tutorial from an Udemy course.</h4>
+          <a href='https://github.com/Hassan-shb/Pig-Game' className='btn btn-primary' target='__blank'>Github</a>
          
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item_image'>
-            <img src={flutter} alt='flutter image' />
+            <img src={laravel} alt='Laravel Image' />
           </div>
-          <h3>This is a portfolio item title.</h3>
-          <a href='https://github.com' className='btn btn-primary' target='__blank'>Github</a>
+          <h2 className='center'>Final year project</h2>
+          <h4 className='class2'>This project is crafted for final year computing research project subject. Carefully built with PHP and Laravel.</h4>
+          <a href='https://github.com/Hassan-shb/Final_year_project' className='btn btn-primary' target='__blank'>Github</a>
          
         </article>
+        
       </div>
     </section>
   )
