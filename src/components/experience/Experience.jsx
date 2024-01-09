@@ -76,7 +76,7 @@ const Experience = () => {
               <BsFillPatchCheckFill />
               <div>
               <h4>PHP</h4>
-              <small className='text-light'>Proficient</small>
+              <small className='text-light'>Intermediate User</small>
               </div>
             </article>
             <article className='experience__details'>

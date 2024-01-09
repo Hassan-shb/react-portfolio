@@ -50,12 +50,6 @@ const Contact = () => {
           <h5>Wai Yan Htun</h5>
           <a href="https://www.messenger.com/t/100017916575560" target='__blank'>Send a message</a>
         </article>
-        <article className='contact__option'>
-          <PiTelegramLogo className='contact_option-icon'/>
-          <h4>Telegram</h4>
-          <h5>Wai Yan Htun</h5>
-          <a href="https://t.me/realwyh" target='__blank'>Send a message</a>
-        </article>
       </div>
       <form action='' ref={form} onSubmit={sendEmail}>
         <input type="name" id="clear1" name="name" placeholder='Your fullname' required/>
